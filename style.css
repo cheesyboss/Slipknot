@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'myFont';
+    src: url(/fonts/MetalMania-Regular.ttf);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.header #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 230px;
+    min-width: 20%;
+}
+
+.header .navigation {
+    text-align: center;
+    font-size: 28px;
+    font-family: monospace;
+}
+
+.header .navigation a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgba(168, 13, 13, 0.705);
+}
+
+.header .navigation a:hover {
+    color: rgb(65, 65, 65);
+}
+
+
+.members {
+    border: 3px solid black;
+    width: 70%;
+    padding: 10px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.members:hover {
+    background-color: rgb(43, 43, 43);
+    color: rgb(192, 83, 83);
+    
+}
+
+
+.members h1 {
+    text-align: center;
+    font-family: 'myFont';
+    font-weight: 500;
+    font-size: 35px;
+} 
+
+.members #sid {
+    padding: 0px 0px 10px 0px;
+    font-size: 16px;
+}
+
+.members #joey {
+    padding: 0px 0px 10px 0px;
+    font-size: 16px;
+}
+
+.members #paul {
+    padding: 0px 0px 10px 0px;
+    font-size: 16px;
+}
+
+.members #chris {
+    padding: 0px 0px 10px 0px;
+    font-size: 16px;
+}
+
+.members #jim {
+    padding: 0px 0px 10px 0px;
+    font-size: 16px;
+}
+
+.members #craig {
+    padding: 0px 0px 10px 0px;
+    font-size: 16px;
+}
+
+.members #clown {
+    padding: 0px 0px 10px 0px;
+    font-size: 16px;
+}
+
+.members #mick {
+    padding: 0px 0px 10px 0px;
+    font-size: 16px;
+}
+
+.members #corey {
+    padding: 0px 0px 10px 0px;
+    font-size: 16px;
+}
